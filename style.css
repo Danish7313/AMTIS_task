@@ -1,0 +1,77 @@
+body{
+   background-color: #fcb603;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-image: url(wallpaper.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+    padding: 20px;
+    border: 5px solid #333; 
+    margin: 0 auto;
+  
+  }
+  #submit {
+    display: block;
+    margin: 0 auto;
+    font-family: Georgia, serif;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the modal */
+  .modal-dialog {
+    max-width: 800px;
+  }
+  
+  .modal-body img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the "See Tariff Rates" button */
+  .btn1 {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  
+  .form-group label {
+    width: 200px;
+    font-family: Georgia, serif;
+  }
+  .form-control{
+    font-size: 14px; 
+    padding: 5px 10px;
+    width: 300px; 
+
+}
+h1{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 70px;
+}
+  

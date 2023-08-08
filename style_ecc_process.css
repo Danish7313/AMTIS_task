@@ -1,0 +1,83 @@
+/* Custom CSS for the Electricity Consumption Charge page */
+
+/* Center the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  .container-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; 
+    width: 50vh;
+    padding: 1px;
+    border: 5px solid #333; 
+    margin: 0 auto;
+    font-family: Georgia, serif;
+    background-image: url(wallpaper.jpg);
+    font-size: 30px;
+  }
+  /* Center the "Calculate" button */
+  #submit {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Style the table */
+  table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the modal */
+  .modal-dialog {
+    max-width: 800px;
+  }
+  
+  .modal-body img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the "See Tariff Rates" button */
+  .btn1 {
+    margin-top: 10px;
+  }
+  
+  /* Adjust the form label width for better alignment */
+  .form-group label {
+    width: 150px;
+  }
+  p{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  h1{
+    text-align: center;
+  }
+    
